@@ -12,9 +12,10 @@ public class OrderServiceImpl {
 	@Autowired
 	private OderRepo oderRepo;
 
-	public Order save(Order order) {
-		return oderRepo.save(order);
+	public String save() {
+//		return oderRepo.save(order);
 
+		 return "order service says Hello";
 	}
 
 }
