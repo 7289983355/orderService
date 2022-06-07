@@ -20,7 +20,7 @@ post{
 
 always{
 
-cleanWs
+cleanWs()
 
 
 }
